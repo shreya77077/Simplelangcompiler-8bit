@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     simplelang_parser
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003804, symSize: 0x88 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003804, symSize: 0x88 }
+  - { offsetInCU: 0x26, offset: 0x2DB, size: 0x8, addend: 0x0, symName: _getNextToken, symObjAddr: 0x0, symBinAddr: 0x10000388C, symSize: 0x3C8 }
+  - { offsetInCU: 0x9F, offset: 0x354, size: 0x8, addend: 0x0, symName: _getNextToken, symObjAddr: 0x0, symBinAddr: 0x10000388C, symSize: 0x3C8 }
+  - { offsetInCU: 0x26, offset: 0x622, size: 0x8, addend: 0x0, symName: _parseStatement, symObjAddr: 0x0, symBinAddr: 0x100003C54, symSize: 0x74 }
+  - { offsetInCU: 0xE7, offset: 0x6E3, size: 0x8, addend: 0x0, symName: _parseStatement, symObjAddr: 0x0, symBinAddr: 0x100003C54, symSize: 0x74 }
+  - { offsetInCU: 0x11D, offset: 0x719, size: 0x8, addend: 0x0, symName: _printAST, symObjAddr: 0x74, symBinAddr: 0x100003CC8, symSize: 0x6C }
+  - { offsetInCU: 0x141, offset: 0x73D, size: 0x8, addend: 0x0, symName: _parseProgram, symObjAddr: 0xE0, symBinAddr: 0x100003D34, symSize: 0x104 }
+...
